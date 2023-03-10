@@ -15,6 +15,7 @@ h2{
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .simple-animation{
  padding: 60px 0px;
@@ -73,7 +74,49 @@ h2{
 .orange-rot{
     background-color: #ff4d00;
 }
-
+/* Staggers  section */
+.staggers-animation {
+    padding: 60px 0px;
+}
+.stagger-box{
+ width: 60px;
+ height: 60px;
+ border-radius: 16px;
+ cursor: pointer;
+}
+.simple-staggers {
+    width: 48%;
+}
+.stagger-green{
+    background-color:#28A92B;
+}
+.stagger-purple{
+    background-color:#8D3DAE;
+}
+.stagger-orange{
+    background-color:#E77614;
+}
+.stagger-yellow{
+    background-color: #ffff00;
+}
+.d-stagger-box{
+    margin: 0px 1.5% 1.5% 0px;
+    border-radius: 0;
+}
+.d-stagger-box{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 6px;
+    margin-top: 4px;
+    display: inline-block;
+}
+.d-staggers{
+    width: 43%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
 /* Responsive */
 @media (max-width:767px) {
     .conatiner{
