@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.conatiner{
+.container{
     width: 1170px;
     margin: 0 auto;
 }
@@ -117,9 +117,96 @@ h2{
     position: relative;
     display: inline-block;
 }
+/* Spiderman Animation section */
+.spiderman_logo{
+    padding: 60px 0px 60px 40px;
+}
+.spiderman_animation {
+    padding: 80px 0px;
+    background-color: #fdf8f0;
+}
+
+/* scrolly images section */
+.scrolly_image_wrap{ 
+ padding: 80px 0px;
+}
+.scrolly_image_wrap text {
+    font-size: 8rem;
+    stroke: #D93240;
+    stroke-width: 2px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill: transparent;
+    animation: dash 5s ease-out alternate infinite;
+    
+  }
+  .scrolly_image_wrap{
+    position: relative;
+  }
+  .scrolly_image_wrap svg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%)  
+  }
+@keyframes dash {
+    from {
+      stroke-dashoffset: 1000;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  .canvas_animation{
+    padding: 60px 0px;
+  }
+  #canvas {
+    height: 80vh;
+    max-height: 300px;
+    overflow: visible;
+    border: solid 2px #ff5722;
+  }
+  button {
+    text-transform: none;
+    margin: 0.25rem;
+  }
+  
+  .nav.light {
+    padding-top: 2rem;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  .control_box{
+   width: 100px;
+   height: 100px;
+   border-radius: 12px;
+   background-color: #0deda2;
+  }
+  .control_animation{
+   width: 55%;
+  }
+  .nav.light button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #d5d5d5b0;
+    border: 1px solid #d5d5d5;
+    font-size: 16px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.nav.light button:hover{
+    background-color: transparent;
+    border: 1px solid #0deda2;
+    transition: all 0.2s;
+
+}
 /* Responsive */
 @media (max-width:767px) {
-    .conatiner{
+    .container{
         width: 90%;
     } 
     h2{

@@ -11,7 +11,7 @@
 
 <body>
     <div class="simple-animation">
-        <div class="conatiner">
+        <div class="container">
             <h2>Simple Animation</h2>
             <div class="main_wrap d-flex">
                 <div class="box green"></div>
@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="rotation-animation">
-        <div class="conatiner">
+        <div class="container">
             <h2>Rotation Animation</h2>
             <div class="main_wrap d-flex">
                 <div class="rot-box green-rot"></div>
@@ -32,7 +32,7 @@
         </div>
     </div>
     <div class="staggers-animation">
-        <div class="conatiner">
+        <div class="container">
             <h2>Staggers Animation</h2>
             <div class="main_wrap d-flex">
                 <div class="simple-staggers d-flex">
@@ -114,10 +114,45 @@
             <h3>Click a box to transition out</h3>
         </div>
     </div>
+    <div class="spiderman_animation">
+        <div class="container">
+                <img  class="spiderman_logo" src="../images/spiderman_logo.png" alt="">
+            </div>
+            
+        </div>
+
+
+        <section class="scrolly_image_wrap">
+            <div class="conatiner">
+              <svg width="820" height="120"><text x="0" y="100">GSAP Animation</text></svg>
+            </div>
+        </section>
+        <section class="canvas_animation">
+            <div class="container">
+                <div class="d-flex">
+                    <canvas id="canvas" width="300" height="300"></canvas>
+                    <div class="control_animation">
+                            <div class="control_box navy"></div>
+                            <div class="nav light">
+                            <button id="play">play()</button>
+                            <button id="pause">pause()</button>
+                            <button id="resume">resume()</button>
+                            <button id="reverse">reverse()</button>
+                            <button id="restart">restart()</button>
+                          </div>
+                    </div>
+                    
+                  </div>
+            </div>
+        </section>
+
+        
+        
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>	
     <script src="../js/function.js"></script>
 </body>
 
